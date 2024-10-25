@@ -1,0 +1,32 @@
+.mainContainer{
+  @apply container mx-auto mt-10;
+}
+
+.tableContainer{
+  @apply overflow-x-auto;
+}
+
+.pageHeader {
+  @apply text-2xl font-bold mb-4 text-center;
+}
+
+.table {
+  @apply min-w-full bg-white shadow-lg rounded-lg border;
+}
+  
+.header {
+  @apply bg-gray-800 text-white;
+}
+
+.cellHeader {
+  @apply py-3 px-5 border-b text-white text-left;
+}
+  
+.cell {
+  @apply py-3 px-5 border-b text-gray-700;
+}
+  
+.row {
+  @apply hover:bg-gray-100;
+}
+  
